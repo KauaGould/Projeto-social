@@ -38,3 +38,16 @@ section#telefone {
     background: url('../imagens/frame-sansung.png') no-repeat center center;
     background-size: contain;
 }
+
+iframe#tela {
+  position: relative;       /* ou relative se preferir manter fluxo normal */
+  top: 0;
+  left: ;
+  width: 99%;             /* ocupa toda a largura disponível do quadrado */
+  height: 94%;            /* ocupa toda a altura disponível do quadrado */
+  max-width: 980px;        /* garante que não ultrapasse o quadrado */
+  max-height: 980px;
+  border: none;
+  display: block;
+  object-fit: cover;       /* faz o conteúdo preencher o espaço sem deformar */
+}
